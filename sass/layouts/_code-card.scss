@@ -1,0 +1,55 @@
+.code-card{
+    padding-top: 152px;
+    padding-bottom: 152px;
+  
+    
+&__card{
+    padding: 18px 18px 38px 18px;
+    margin: auto;
+    background-color: var(--card-bg);
+    @include mobile{      
+    height: 478px;
+    width: 312px;
+    text-align: center;  
+    border-radius: 20px;
+    
+    }
+        @include desktop{
+            height: 478px;
+            width: 312px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+    }
+    &__img{
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+        &__title{
+            margin-top: 0;
+            margin-bottom: 16px;
+            @include mobile{ 
+                font-size: 21px;
+                font-weight: 700;            
+            }
+            @include desktop{
+                font-size: 21px;
+                font-weight: 700;
+            }
+
+        }
+        &__sub-title{
+            margin: 0;
+            
+            color: var(--title);
+            @include mobile{
+                font-size: 16px;
+                font-weight: 400;
+            }
+            @include desktop{
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+}

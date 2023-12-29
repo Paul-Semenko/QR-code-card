@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: var(--body-bg);
+    color: var(--main-title);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
